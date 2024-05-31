@@ -1,15 +1,21 @@
-#include<iostream>
-//#include<bits/stdc++.h>
-#define _USE_MATH_DEFINES
-#include<cmath>
+#include <iostream>
 using namespace std;
 int main()
-{ cout<<"enter radius";
-double r;
-cin>>r;
-cout<<"diameter"<<pow(r,2.0)<<endl;
-cout<<"cicumference"<<2*M_PI*r<<endl;
-cout<<"area"<<M_PI*pow(r,2.0)<<endl;
-return 0;
+{
+    int a[10];
+    int b[10];
+    cout<<"enter 10 numbers of an array";
+    for(int i=0;i<10;i++)
+    {
+        cin>>a[i];
+    }
+    for(int i=0;i<10;i++)
+    {
+        cin>>a[i];
+    }
+    for(int i=0;i<10;i++)
+    {
+        cout<<b[i];
+    }
 
 }
